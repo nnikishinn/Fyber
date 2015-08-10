@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AC256A791B77686400108864 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AC256A7A1B77686400108864 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				AC256A7D1B77688D00108864 /* ShellScript */,
+			);
+			dependencies = (
+				AC256A7F1B7768BF00108864 /* PBXTargetDependency */,
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		AC256AB11B776C2200108864 /* FYBAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AC256AAA1B776C2200108864 /* FYBAPIClient.m */; };
+		AC256AB21B776C2200108864 /* FYBOfferObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AC256AAB1B776C2200108864 /* FYBOfferObject.m */; };
+		AC256ABE1B776D9900108864 /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = AC256A701B7767A500108864 /* NSString+Hashes.m */; };
+		ACDB82B81B790349005B62D7 /* libFyberSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC256A531B77678F00108864 /* libFyberSDK.a */; };
+		ACDB82C01B7905A5005B62D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB82BF1B7905A5005B62D7 /* UIKit.framework */; };
+		ACDB82C21B7905AA005B62D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB82C11B7905AA005B62D7 /* Foundation.framework */; };
+		ACDB82C41B7905B1005B62D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB82C31B7905B1005B62D7 /* CoreGraphics.framework */; };
+		ACDB82C61B790955005B62D7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB82C51B790955005B62D7 /* AdSupport.framework */; };
+		ACDB82C71B790CEA005B62D7 /* FyberSDK_UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB82B61B790349005B62D7 /* FyberSDK_UnitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC256A7E1B7768BF00108864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC256A4B1B77678F00108864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC256A521B77678F00108864;
+			remoteInfo = FyberSDK;
+		};
+		ACDB82B91B790349005B62D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC256A4B1B77678F00108864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC256A521B77678F00108864;
+			remoteInfo = FyberSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC256A511B77678F00108864 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC256A531B77678F00108864 /* libFyberSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFyberSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC256A6F1B7767A500108864 /* NSString+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashes.h"; sourceTree = "<group>"; };
+		AC256A701B7767A500108864 /* NSString+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashes.m"; sourceTree = "<group>"; };
+		AC256AAA1B776C2200108864 /* FYBAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYBAPIClient.m; sourceTree = "<group>"; };
+		AC256AAB1B776C2200108864 /* FYBOfferObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYBOfferObject.m; sourceTree = "<group>"; };
+		AC256AAD1B776C2200108864 /* FYBAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBAPIClient.h; sourceTree = "<group>"; };
+		AC256AAE1B776C2200108864 /* FyberSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FyberSDK.h; sourceTree = "<group>"; };
+		AC256AAF1B776C2200108864 /* FYBOfferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBOfferObject.h; sourceTree = "<group>"; };
+		AC256AB01B776C2200108864 /* FYBOfferObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYBOfferObjectProtocol.h; sourceTree = "<group>"; };
+		ACDB82B21B790349005B62D7 /* FyberSDK UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FyberSDK UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDB82B51B790349005B62D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDB82B61B790349005B62D7 /* FyberSDK_UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FyberSDK_UnitTests.m; sourceTree = "<group>"; };
+		ACDB82BE1B7903F0005B62D7 /* FYBAPIClient_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYBAPIClient_Private.h; sourceTree = "<group>"; };
+		ACDB82BF1B7905A5005B62D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACDB82C11B7905AA005B62D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACDB82C31B7905B1005B62D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACDB82C51B790955005B62D7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		ACDB82CA1B790E09005B62D7 /* FYBAPIClient_Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYBAPIClient_Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC256A501B77678F00108864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB82AF1B790349005B62D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB82C61B790955005B62D7 /* AdSupport.framework in Frameworks */,
+				ACDB82C41B7905B1005B62D7 /* CoreGraphics.framework in Frameworks */,
+				ACDB82C21B7905AA005B62D7 /* Foundation.framework in Frameworks */,
+				ACDB82C01B7905A5005B62D7 /* UIKit.framework in Frameworks */,
+				ACDB82B81B790349005B62D7 /* libFyberSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC256A4A1B77678F00108864 = {
+			isa = PBXGroup;
+			children = (
+				AC256A6D1B7767A500108864 /* ThirdPartyLibs */,
+				AC256A551B77678F00108864 /* FyberSDK */,
+				ACDB82B31B790349005B62D7 /* FyberSDK UnitTests */,
+				AC256A541B77678F00108864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC256A541B77678F00108864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC256A531B77678F00108864 /* libFyberSDK.a */,
+				ACDB82B21B790349005B62D7 /* FyberSDK UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC256A551B77678F00108864 /* FyberSDK */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB82CA1B790E09005B62D7 /* FYBAPIClient_Constants.h */,
+				ACDB82BE1B7903F0005B62D7 /* FYBAPIClient_Private.h */,
+				AC256AAA1B776C2200108864 /* FYBAPIClient.m */,
+				AC256AAB1B776C2200108864 /* FYBOfferObject.m */,
+				AC256AAC1B776C2200108864 /* Headers */,
+			);
+			path = FyberSDK;
+			sourceTree = "<group>";
+		};
+		AC256A6D1B7767A500108864 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				AC256A6E1B7767A500108864 /* NSString+Hashes */,
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		AC256A6E1B7767A500108864 /* NSString+Hashes */ = {
+			isa = PBXGroup;
+			children = (
+				AC256A6F1B7767A500108864 /* NSString+Hashes.h */,
+				AC256A701B7767A500108864 /* NSString+Hashes.m */,
+			);
+			path = "NSString+Hashes";
+			sourceTree = "<group>";
+		};
+		AC256AAC1B776C2200108864 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AC256AAD1B776C2200108864 /* FYBAPIClient.h */,
+				AC256AAE1B776C2200108864 /* FyberSDK.h */,
+				AC256AAF1B776C2200108864 /* FYBOfferObject.h */,
+				AC256AB01B776C2200108864 /* FYBOfferObjectProtocol.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		ACDB82B31B790349005B62D7 /* FyberSDK UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB82C51B790955005B62D7 /* AdSupport.framework */,
+				ACDB82C31B7905B1005B62D7 /* CoreGraphics.framework */,
+				ACDB82C11B7905AA005B62D7 /* Foundation.framework */,
+				ACDB82BF1B7905A5005B62D7 /* UIKit.framework */,
+				ACDB82B61B790349005B62D7 /* FyberSDK_UnitTests.m */,
+				ACDB82B41B790349005B62D7 /* Supporting Files */,
+			);
+			path = "FyberSDK UnitTests";
+			sourceTree = "<group>";
+		};
+		ACDB82B41B790349005B62D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB82B51B790349005B62D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC256A521B77678F00108864 /* FyberSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC256A671B77678F00108864 /* Build configuration list for PBXNativeTarget "FyberSDK" */;
+			buildPhases = (
+				AC256A4F1B77678F00108864 /* Sources */,
+				AC256A501B77678F00108864 /* Frameworks */,
+				AC256A511B77678F00108864 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FyberSDK;
+			productName = FyberSDK;
+			productReference = AC256A531B77678F00108864 /* libFyberSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACDB82B11B790349005B62D7 /* FyberSDK UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDB82BB1B790349005B62D7 /* Build configuration list for PBXNativeTarget "FyberSDK UnitTests" */;
+			buildPhases = (
+				ACDB82AE1B790349005B62D7 /* Sources */,
+				ACDB82AF1B790349005B62D7 /* Frameworks */,
+				ACDB82B01B790349005B62D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDB82BA1B790349005B62D7 /* PBXTargetDependency */,
+			);
+			name = "FyberSDK UnitTests";
+			productName = "FyberSDK UnitTests";
+			productReference = ACDB82B21B790349005B62D7 /* FyberSDK UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC256A4B1B77678F00108864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nickolai Nikishin";
+				TargetAttributes = {
+					AC256A521B77678F00108864 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AC256A791B77686400108864 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ACDB82B11B790349005B62D7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = AC256A4E1B77678F00108864 /* Build configuration list for PBXProject "FyberSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC256A4A1B77678F00108864;
+			productRefGroup = AC256A541B77678F00108864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC256A521B77678F00108864 /* FyberSDK */,
+				AC256A791B77686400108864 /* UniversalLib */,
+				ACDB82B11B790349005B62D7 /* FyberSDK UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDB82B01B790349005B62D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC256A7D1B77688D00108864 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ImageFilters ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target ImageFilters -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC256A4F1B77678F00108864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC256AB11B776C2200108864 /* FYBAPIClient.m in Sources */,
+				AC256AB21B776C2200108864 /* FYBOfferObject.m in Sources */,
+				AC256ABE1B776D9900108864 /* NSString+Hashes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB82AE1B790349005B62D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB82C71B790CEA005B62D7 /* FyberSDK_UnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC256A7F1B7768BF00108864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC256A521B77678F00108864 /* FyberSDK */;
+			targetProxy = AC256A7E1B7768BF00108864 /* PBXContainerItemProxy */;
+		};
+		ACDB82BA1B790349005B62D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC256A521B77678F00108864 /* FyberSDK */;
+			targetProxy = ACDB82B91B790349005B62D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC256A651B77678F00108864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC256A661B77678F00108864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC256A681B77678F00108864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC256A691B77678F00108864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC256A7B1B77686400108864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC256A7C1B77686400108864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACDB82BC1B790349005B62D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FyberSDK UnitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACDB82BD1B790349005B62D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FyberSDK UnitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC256A4E1B77678F00108864 /* Build configuration list for PBXProject "FyberSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC256A651B77678F00108864 /* Debug */,
+				AC256A661B77678F00108864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC256A671B77678F00108864 /* Build configuration list for PBXNativeTarget "FyberSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC256A681B77678F00108864 /* Debug */,
+				AC256A691B77678F00108864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC256A7A1B77686400108864 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC256A7B1B77686400108864 /* Debug */,
+				AC256A7C1B77686400108864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDB82BB1B790349005B62D7 /* Build configuration list for PBXNativeTarget "FyberSDK UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDB82BC1B790349005B62D7 /* Debug */,
+				ACDB82BD1B790349005B62D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC256A4B1B77678F00108864 /* Project object */;
+}

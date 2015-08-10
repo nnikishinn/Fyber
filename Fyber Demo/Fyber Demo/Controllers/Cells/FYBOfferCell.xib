@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="FYBOfferCell" selectionStyle="none" indentationWidth="10" reuseIdentifier="FYBOfferCell" rowHeight="87" id="KGk-i7-Jjw" customClass="FYBOfferCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PhN-iQ-NbV">
+                        <rect key="frame" x="6" y="4" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="0H8-zR-5L0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="186" placeholderIntrinsicHeight="27" text="Survey Sampling - Umfrage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biy-5t-R90">
+                        <rect key="frame" x="94" y="7" width="186" height="27"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Submit valid email and payment information. No purchase necessary. " lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="218" translatesAutoresizingMaskIntoConstraints="NO" id="S7i-Np-E6C">
+                        <rect key="frame" x="94" y="36" width="218" height="42.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="111" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3Z-zN-5dI">
+                        <rect key="frame" x="281" y="7" width="31" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="f11-SL-lyE"/>
+                            <constraint firstAttribute="width" constant="31" id="gE1-Ux-McW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.066666666669999999" green="0.37254901959999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="S7i-Np-E6C" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="8LR-fX-g9s"/>
+                    <constraint firstItem="e3Z-zN-5dI" firstAttribute="leading" secondItem="biy-5t-R90" secondAttribute="trailing" constant="1" id="EtH-1d-gQj"/>
+                    <constraint firstItem="S7i-Np-E6C" firstAttribute="leading" secondItem="PhN-iQ-NbV" secondAttribute="trailing" constant="8" id="HvP-5g-9xg"/>
+                    <constraint firstItem="biy-5t-R90" firstAttribute="leading" secondItem="PhN-iQ-NbV" secondAttribute="trailing" constant="8" id="KWs-ut-Yxe"/>
+                    <constraint firstItem="biy-5t-R90" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-1" id="byb-oJ-3LQ"/>
+                    <constraint firstItem="PhN-iQ-NbV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-4" id="e8c-zP-h4W"/>
+                    <constraint firstItem="e3Z-zN-5dI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-1" id="i65-PT-Aqa"/>
+                    <constraint firstItem="S7i-Np-E6C" firstAttribute="top" secondItem="e3Z-zN-5dI" secondAttribute="bottom" constant="2" id="iwp-Eb-PEF"/>
+                    <constraint firstItem="PhN-iQ-NbV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-2" id="kN3-be-kFp"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="PhN-iQ-NbV" secondAttribute="bottom" constant="-5.5" id="ktB-Ia-FVk"/>
+                    <constraint firstItem="e3Z-zN-5dI" firstAttribute="height" secondItem="biy-5t-R90" secondAttribute="height" id="rA6-t2-NUb"/>
+                    <constraint firstItem="S7i-Np-E6C" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="yaM-np-aSG"/>
+                    <constraint firstItem="e3Z-zN-5dI" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="zgQ-PT-Kfm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewThumb" destination="PhN-iQ-NbV" id="sYE-hH-TBP"/>
+                <outlet property="labelPayout" destination="e3Z-zN-5dI" id="wby-3U-CJC"/>
+                <outlet property="labelTeaser" destination="S7i-Np-E6C" id="rHl-MI-BM7"/>
+                <outlet property="labelTitle" destination="biy-5t-R90" id="r2n-3c-58h"/>
+            </connections>
+            <point key="canvasLocation" x="314" y="267.5"/>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

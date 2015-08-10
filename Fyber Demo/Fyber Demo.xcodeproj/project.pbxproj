@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC25695C1B75A8EB00108864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC25695B1B75A8EB00108864 /* main.m */; };
+		AC25695F1B75A8EC00108864 /* FYBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC25695E1B75A8EC00108864 /* FYBAppDelegate.m */; };
+		AC2569651B75A8EC00108864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2569631B75A8EC00108864 /* Main.storyboard */; };
+		AC2569671B75A8EC00108864 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2569661B75A8EC00108864 /* Images.xcassets */; };
+		AC2569871B75ACFB00108864 /* FYBRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569861B75ACFB00108864 /* FYBRequestViewController.m */; };
+		AC25698A1B75AD2E00108864 /* FYBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569891B75AD2E00108864 /* FYBBaseViewController.m */; };
+		AC2569B61B75ADC700108864 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC25698E1B75ADC700108864 /* AFHTTPRequestOperation.m */; };
+		AC2569B71B75ADC700108864 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569901B75ADC700108864 /* AFHTTPRequestOperationManager.m */; };
+		AC2569B81B75ADC700108864 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569921B75ADC700108864 /* AFHTTPSessionManager.m */; };
+		AC2569B91B75ADC700108864 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569951B75ADC700108864 /* AFNetworkReachabilityManager.m */; };
+		AC2569BA1B75ADC700108864 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569971B75ADC700108864 /* AFSecurityPolicy.m */; };
+		AC2569BB1B75ADC700108864 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569991B75ADC700108864 /* AFURLConnectionOperation.m */; };
+		AC2569BC1B75ADC700108864 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AC25699B1B75ADC700108864 /* AFURLRequestSerialization.m */; };
+		AC2569BD1B75ADC700108864 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AC25699D1B75ADC700108864 /* AFURLResponseSerialization.m */; };
+		AC2569BE1B75ADC700108864 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC25699F1B75ADC700108864 /* AFURLSessionManager.m */; };
+		AC2569BF1B75ADC700108864 /* PSTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569A21B75ADC700108864 /* PSTAlertController.m */; };
+		AC2569C01B75ADC700108864 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569A51B75ADC700108864 /* AFNetworkActivityIndicatorManager.m */; };
+		AC2569C11B75ADC700108864 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569A71B75ADC700108864 /* UIActivityIndicatorView+AFNetworking.m */; };
+		AC2569C21B75ADC700108864 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569A91B75ADC700108864 /* UIAlertView+AFNetworking.m */; };
+		AC2569C31B75ADC700108864 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569AB1B75ADC700108864 /* UIButton+AFNetworking.m */; };
+		AC2569C41B75ADC700108864 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569AE1B75ADC700108864 /* UIImageView+AFNetworking.m */; };
+		AC2569C51B75ADC700108864 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569B11B75ADC700108864 /* UIProgressView+AFNetworking.m */; };
+		AC2569C61B75ADC700108864 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569B31B75ADC700108864 /* UIRefreshControl+AFNetworking.m */; };
+		AC2569C71B75ADC700108864 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569B51B75ADC700108864 /* UIWebView+AFNetworking.m */; };
+		AC2569CA1B75ADFA00108864 /* FYBBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569C91B75ADFA00108864 /* FYBBaseCell.m */; };
+		AC2569CD1B75AE1A00108864 /* FYBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569CC1B75AE1A00108864 /* FYBAlertController.m */; };
+		AC2569D01B75AEDC00108864 /* FYBBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569CF1B75AEDC00108864 /* FYBBaseViewModel.m */; };
+		AC2569D31B75AF7F00108864 /* FYBRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569D21B75AF7F00108864 /* FYBRequestViewModel.m */; };
+		AC2569DA1B75B00800108864 /* FYBAllOffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569D91B75B00800108864 /* FYBAllOffersViewController.m */; };
+		AC2569DE1B75B04500108864 /* FYBOfferCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2569DC1B75B04400108864 /* FYBOfferCell.m */; };
+		AC2569DF1B75B04500108864 /* FYBOfferCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2569DD1B75B04500108864 /* FYBOfferCell.xib */; };
+		AC2569E91B7728B000108864 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2569E81B7728B000108864 /* AdSupport.framework */; };
+		AC256AA91B776B6A00108864 /* libFyberSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC256AA31B776B1E00108864 /* libFyberSDK.a */; };
+		ACDB7F041B78B10F005B62D7 /* UITestsRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB7F031B78B10F005B62D7 /* UITestsRequestViewController.m */; };
+		ACDB82211B78B8C8005B62D7 /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD181841B78774D00FC39CC /* libKIF.a */; };
+		ACDB82221B78BA5A005B62D7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB7F061B78B393005B62D7 /* IOKit.framework */; };
+		ACDB82261B78CA7B005B62D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDB82251B78CA7B005B62D7 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2569701B75A8EC00108864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC25694E1B75A8EB00108864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2569551B75A8EB00108864;
+			remoteInfo = "Fyber Demo";
+		};
+		AC256AA21B776B1E00108864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC256A9C1B776B1E00108864 /* FyberSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC256A531B77678F00108864;
+			remoteInfo = FyberSDK;
+		};
+		AC256AA41B776B1E00108864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC256A9C1B776B1E00108864 /* FyberSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC256A5E1B77678F00108864;
+			remoteInfo = FyberSDKTests;
+		};
+		AC256AA71B776B4900108864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC256A9C1B776B1E00108864 /* FyberSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AC256A521B77678F00108864;
+			remoteInfo = FyberSDK;
+		};
+		ACD181831B78774D00FC39CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
+			remoteInfo = KIF;
+		};
+		ACD181851B78774D00FC39CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB72047C1680DDAD00278DA2;
+			remoteInfo = "KIF-OCUnit";
+		};
+		ACD181871B78774D00FC39CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
+			remoteInfo = "Test Host";
+		};
+		ACD181891B78774D00FC39CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
+			remoteInfo = "KIF Tests";
+		};
+		ACD1818B1B78774D00FC39CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB60ECEB177F8DB3005A041A;
+			remoteInfo = "KIF Tests-OCUnit";
+		};
+		ACD1818D1B78774D00FC39CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CC9673B1AD4B1B600576D13;
+			remoteInfo = KIFFramework;
+		};
+		ACD1818F1B78778A00FC39CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EABD46791857A0C700A5F081;
+			remoteInfo = KIF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2569561B75A8EB00108864 /* Fyber Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fyber Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC25695A1B75A8EB00108864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC25695B1B75A8EB00108864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC25695D1B75A8EC00108864 /* FYBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYBAppDelegate.h; sourceTree = "<group>"; };
+		AC25695E1B75A8EC00108864 /* FYBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYBAppDelegate.m; sourceTree = "<group>"; };
+		AC2569641B75A8EC00108864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2569661B75A8EC00108864 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC25696F1B75A8EC00108864 /* Fyber DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fyber DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2569741B75A8EC00108864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC25697F1B75A97900108864 /* Fyber-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fyber-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		AC2569851B75ACFB00108864 /* FYBRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBRequestViewController.h; path = Controllers/FYBRequestViewController.h; sourceTree = "<group>"; };
+		AC2569861B75ACFB00108864 /* FYBRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBRequestViewController.m; path = Controllers/FYBRequestViewController.m; sourceTree = "<group>"; };
+		AC2569881B75AD2E00108864 /* FYBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBBaseViewController.h; path = BaseClasses/FYBBaseViewController.h; sourceTree = "<group>"; };
+		AC2569891B75AD2E00108864 /* FYBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBBaseViewController.m; path = BaseClasses/FYBBaseViewController.m; sourceTree = "<group>"; };
+		AC25698D1B75ADC700108864 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		AC25698E1B75ADC700108864 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AC25698F1B75ADC700108864 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		AC2569901B75ADC700108864 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		AC2569911B75ADC700108864 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		AC2569921B75ADC700108864 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		AC2569931B75ADC700108864 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AC2569941B75ADC700108864 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AC2569951B75ADC700108864 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AC2569961B75ADC700108864 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		AC2569971B75ADC700108864 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AC2569981B75ADC700108864 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		AC2569991B75ADC700108864 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		AC25699A1B75ADC700108864 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AC25699B1B75ADC700108864 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AC25699C1B75ADC700108864 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AC25699D1B75ADC700108864 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		AC25699E1B75ADC700108864 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		AC25699F1B75ADC700108864 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		AC2569A11B75ADC700108864 /* PSTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTAlertController.h; sourceTree = "<group>"; };
+		AC2569A21B75ADC700108864 /* PSTAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTAlertController.m; sourceTree = "<group>"; };
+		AC2569A41B75ADC700108864 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		AC2569A51B75ADC700108864 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		AC2569A61B75ADC700108864 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569A71B75ADC700108864 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC2569A81B75ADC700108864 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569A91B75ADC700108864 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC2569AA1B75ADC700108864 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569AB1B75ADC700108864 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		AC2569AC1B75ADC700108864 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569AD1B75ADC700108864 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569AE1B75ADC700108864 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC2569AF1B75ADC700108864 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569B01B75ADC700108864 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569B11B75ADC700108864 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC2569B21B75ADC700108864 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569B31B75ADC700108864 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		AC2569B41B75ADC700108864 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		AC2569B51B75ADC700108864 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC2569C81B75ADFA00108864 /* FYBBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBBaseCell.h; path = BaseClasses/FYBBaseCell.h; sourceTree = "<group>"; };
+		AC2569C91B75ADFA00108864 /* FYBBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBBaseCell.m; path = BaseClasses/FYBBaseCell.m; sourceTree = "<group>"; };
+		AC2569CB1B75AE1A00108864 /* FYBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBAlertController.h; path = BaseClasses/FYBAlertController.h; sourceTree = "<group>"; };
+		AC2569CC1B75AE1A00108864 /* FYBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBAlertController.m; path = BaseClasses/FYBAlertController.m; sourceTree = "<group>"; };
+		AC2569CE1B75AEDC00108864 /* FYBBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBBaseViewModel.h; path = BaseClasses/FYBBaseViewModel.h; sourceTree = "<group>"; };
+		AC2569CF1B75AEDC00108864 /* FYBBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBBaseViewModel.m; path = BaseClasses/FYBBaseViewModel.m; sourceTree = "<group>"; };
+		AC2569D11B75AF7F00108864 /* FYBRequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBRequestViewModel.h; path = Controllers/FYBRequestViewModel.h; sourceTree = "<group>"; };
+		AC2569D21B75AF7F00108864 /* FYBRequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBRequestViewModel.m; path = Controllers/FYBRequestViewModel.m; sourceTree = "<group>"; };
+		AC2569D81B75B00800108864 /* FYBAllOffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBAllOffersViewController.h; path = Controllers/FYBAllOffersViewController.h; sourceTree = "<group>"; };
+		AC2569D91B75B00800108864 /* FYBAllOffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBAllOffersViewController.m; path = Controllers/FYBAllOffersViewController.m; sourceTree = "<group>"; };
+		AC2569DB1B75B04400108864 /* FYBOfferCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYBOfferCell.h; path = Controllers/Cells/FYBOfferCell.h; sourceTree = "<group>"; };
+		AC2569DC1B75B04400108864 /* FYBOfferCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYBOfferCell.m; path = Controllers/Cells/FYBOfferCell.m; sourceTree = "<group>"; };
+		AC2569DD1B75B04500108864 /* FYBOfferCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FYBOfferCell.xib; path = Controllers/Cells/FYBOfferCell.xib; sourceTree = "<group>"; };
+		AC2569E81B7728B000108864 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		AC256A9C1B776B1E00108864 /* FyberSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FyberSDK.xcodeproj; path = ../FyberSDK/FyberSDK.xcodeproj; sourceTree = "<group>"; };
+		ACD181791B78774C00FC39CC /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = ThirdPartyLibs/KIF/KIF.xcodeproj; sourceTree = SOURCE_ROOT; };
+		ACDB7F021B78B10F005B62D7 /* UITestsRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITestsRequestViewController.h; sourceTree = "<group>"; };
+		ACDB7F031B78B10F005B62D7 /* UITestsRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestsRequestViewController.m; sourceTree = "<group>"; };
+		ACDB7F061B78B393005B62D7 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		ACDB82251B78CA7B005B62D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2569531B75A8EB00108864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC256AA91B776B6A00108864 /* libFyberSDK.a in Frameworks */,
+				AC2569E91B7728B000108864 /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC25696C1B75A8EC00108864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB82261B78CA7B005B62D7 /* CoreGraphics.framework in Frameworks */,
+				ACDB82211B78B8C8005B62D7 /* libKIF.a in Frameworks */,
+				ACDB82221B78BA5A005B62D7 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC25694D1B75A8EB00108864 = {
+			isa = PBXGroup;
+			children = (
+				AC2569581B75A8EB00108864 /* Fyber Demo */,
+				AC2569721B75A8EC00108864 /* Fyber DemoTests */,
+				AC256AA61B776B2D00108864 /* SDK */,
+				AC256ABF1B776ECC00108864 /* Frameworks */,
+				AC25698B1B75ADC700108864 /* ThirdPartyLibs */,
+				AC2569571B75A8EB00108864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2569571B75A8EB00108864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569561B75A8EB00108864 /* Fyber Demo.app */,
+				AC25696F1B75A8EC00108864 /* Fyber DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2569581B75A8EB00108864 /* Fyber Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AC25695D1B75A8EC00108864 /* FYBAppDelegate.h */,
+				AC25695E1B75A8EC00108864 /* FYBAppDelegate.m */,
+				AC2569831B75ACC100108864 /* Controllers */,
+				AC2569811B75ACA900108864 /* BaseClasses */,
+				AC2569801B75AC6B00108864 /* Resources */,
+				AC2569591B75A8EB00108864 /* Supporting Files */,
+			);
+			path = "Fyber Demo";
+			sourceTree = "<group>";
+		};
+		AC2569591B75A8EB00108864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC25697F1B75A97900108864 /* Fyber-Demo-Prefix.pch */,
+				AC25695A1B75A8EB00108864 /* Info.plist */,
+				AC25695B1B75A8EB00108864 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC2569721B75A8EC00108864 /* Fyber DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD181791B78774C00FC39CC /* KIF.xcodeproj */,
+				ACDB7F021B78B10F005B62D7 /* UITestsRequestViewController.h */,
+				ACDB7F031B78B10F005B62D7 /* UITestsRequestViewController.m */,
+				AC2569731B75A8EC00108864 /* Supporting Files */,
+			);
+			path = "Fyber DemoTests";
+			sourceTree = "<group>";
+		};
+		AC2569731B75A8EC00108864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569741B75A8EC00108864 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC2569801B75AC6B00108864 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569631B75A8EC00108864 /* Main.storyboard */,
+				AC2569661B75A8EC00108864 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC2569811B75ACA900108864 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569881B75AD2E00108864 /* FYBBaseViewController.h */,
+				AC2569891B75AD2E00108864 /* FYBBaseViewController.m */,
+				AC2569C81B75ADFA00108864 /* FYBBaseCell.h */,
+				AC2569C91B75ADFA00108864 /* FYBBaseCell.m */,
+				AC2569CB1B75AE1A00108864 /* FYBAlertController.h */,
+				AC2569CC1B75AE1A00108864 /* FYBAlertController.m */,
+				AC2569CE1B75AEDC00108864 /* FYBBaseViewModel.h */,
+				AC2569CF1B75AEDC00108864 /* FYBBaseViewModel.m */,
+			);
+			name = BaseClasses;
+			sourceTree = "<group>";
+		};
+		AC2569831B75ACC100108864 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569841B75ACDE00108864 /* FYBRequestViewController */,
+				AC2569D41B75AFB100108864 /* FYBAllOffersViewController */,
+				AC2569E01B75B04E00108864 /* Cells */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AC2569841B75ACDE00108864 /* FYBRequestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569D11B75AF7F00108864 /* FYBRequestViewModel.h */,
+				AC2569D21B75AF7F00108864 /* FYBRequestViewModel.m */,
+				AC2569851B75ACFB00108864 /* FYBRequestViewController.h */,
+				AC2569861B75ACFB00108864 /* FYBRequestViewController.m */,
+			);
+			name = FYBRequestViewController;
+			sourceTree = "<group>";
+		};
+		AC25698B1B75ADC700108864 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				AC25698C1B75ADC700108864 /* AFNetworking */,
+				AC2569A01B75ADC700108864 /* PSTAlertController */,
+				AC2569A31B75ADC700108864 /* UIKit+AFNetworking */,
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		AC25698C1B75ADC700108864 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AC25698D1B75ADC700108864 /* AFHTTPRequestOperation.h */,
+				AC25698E1B75ADC700108864 /* AFHTTPRequestOperation.m */,
+				AC25698F1B75ADC700108864 /* AFHTTPRequestOperationManager.h */,
+				AC2569901B75ADC700108864 /* AFHTTPRequestOperationManager.m */,
+				AC2569911B75ADC700108864 /* AFHTTPSessionManager.h */,
+				AC2569921B75ADC700108864 /* AFHTTPSessionManager.m */,
+				AC2569931B75ADC700108864 /* AFNetworking.h */,
+				AC2569941B75ADC700108864 /* AFNetworkReachabilityManager.h */,
+				AC2569951B75ADC700108864 /* AFNetworkReachabilityManager.m */,
+				AC2569961B75ADC700108864 /* AFSecurityPolicy.h */,
+				AC2569971B75ADC700108864 /* AFSecurityPolicy.m */,
+				AC2569981B75ADC700108864 /* AFURLConnectionOperation.h */,
+				AC2569991B75ADC700108864 /* AFURLConnectionOperation.m */,
+				AC25699A1B75ADC700108864 /* AFURLRequestSerialization.h */,
+				AC25699B1B75ADC700108864 /* AFURLRequestSerialization.m */,
+				AC25699C1B75ADC700108864 /* AFURLResponseSerialization.h */,
+				AC25699D1B75ADC700108864 /* AFURLResponseSerialization.m */,
+				AC25699E1B75ADC700108864 /* AFURLSessionManager.h */,
+				AC25699F1B75ADC700108864 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AC2569A01B75ADC700108864 /* PSTAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569A11B75ADC700108864 /* PSTAlertController.h */,
+				AC2569A21B75ADC700108864 /* PSTAlertController.m */,
+			);
+			path = PSTAlertController;
+			sourceTree = "<group>";
+		};
+		AC2569A31B75ADC700108864 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569A41B75ADC700108864 /* AFNetworkActivityIndicatorManager.h */,
+				AC2569A51B75ADC700108864 /* AFNetworkActivityIndicatorManager.m */,
+				AC2569A61B75ADC700108864 /* UIActivityIndicatorView+AFNetworking.h */,
+				AC2569A71B75ADC700108864 /* UIActivityIndicatorView+AFNetworking.m */,
+				AC2569A81B75ADC700108864 /* UIAlertView+AFNetworking.h */,
+				AC2569A91B75ADC700108864 /* UIAlertView+AFNetworking.m */,
+				AC2569AA1B75ADC700108864 /* UIButton+AFNetworking.h */,
+				AC2569AB1B75ADC700108864 /* UIButton+AFNetworking.m */,
+				AC2569AC1B75ADC700108864 /* UIImage+AFNetworking.h */,
+				AC2569AD1B75ADC700108864 /* UIImageView+AFNetworking.h */,
+				AC2569AE1B75ADC700108864 /* UIImageView+AFNetworking.m */,
+				AC2569AF1B75ADC700108864 /* UIKit+AFNetworking.h */,
+				AC2569B01B75ADC700108864 /* UIProgressView+AFNetworking.h */,
+				AC2569B11B75ADC700108864 /* UIProgressView+AFNetworking.m */,
+				AC2569B21B75ADC700108864 /* UIRefreshControl+AFNetworking.h */,
+				AC2569B31B75ADC700108864 /* UIRefreshControl+AFNetworking.m */,
+				AC2569B41B75ADC700108864 /* UIWebView+AFNetworking.h */,
+				AC2569B51B75ADC700108864 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		AC2569D41B75AFB100108864 /* FYBAllOffersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569D81B75B00800108864 /* FYBAllOffersViewController.h */,
+				AC2569D91B75B00800108864 /* FYBAllOffersViewController.m */,
+			);
+			name = FYBAllOffersViewController;
+			sourceTree = "<group>";
+		};
+		AC2569E01B75B04E00108864 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AC2569DB1B75B04400108864 /* FYBOfferCell.h */,
+				AC2569DC1B75B04400108864 /* FYBOfferCell.m */,
+				AC2569DD1B75B04500108864 /* FYBOfferCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		AC256A9D1B776B1E00108864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC256AA31B776B1E00108864 /* libFyberSDK.a */,
+				AC256AA51B776B1E00108864 /* FyberSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC256AA61B776B2D00108864 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				AC256A9C1B776B1E00108864 /* FyberSDK.xcodeproj */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		AC256ABF1B776ECC00108864 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB82251B78CA7B005B62D7 /* CoreGraphics.framework */,
+				ACDB7F061B78B393005B62D7 /* IOKit.framework */,
+				AC2569E81B7728B000108864 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACD1817A1B78774C00FC39CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD181841B78774D00FC39CC /* libKIF.a */,
+				ACD181861B78774D00FC39CC /* libKIF-OCUnit.a */,
+				ACD181881B78774D00FC39CC /* Test Host.app */,
+				ACD1818A1B78774D00FC39CC /* KIF Tests - XCTest.xctest */,
+				ACD1818C1B78774D00FC39CC /* KIF Tests-OCUnit.octest */,
+				ACD1818E1B78774D00FC39CC /* KIF.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2569551B75A8EB00108864 /* Fyber Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2569791B75A8EC00108864 /* Build configuration list for PBXNativeTarget "Fyber Demo" */;
+			buildPhases = (
+				AC2569521B75A8EB00108864 /* Sources */,
+				AC2569531B75A8EB00108864 /* Frameworks */,
+				AC2569541B75A8EB00108864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC256AA81B776B4900108864 /* PBXTargetDependency */,
+			);
+			name = "Fyber Demo";
+			productName = "Fyber Demo";
+			productReference = AC2569561B75A8EB00108864 /* Fyber Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC25696E1B75A8EC00108864 /* Fyber DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC25697C1B75A8EC00108864 /* Build configuration list for PBXNativeTarget "Fyber DemoTests" */;
+			buildPhases = (
+				AC25696B1B75A8EC00108864 /* Sources */,
+				AC25696C1B75A8EC00108864 /* Frameworks */,
+				AC25696D1B75A8EC00108864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD181901B78778A00FC39CC /* PBXTargetDependency */,
+				AC2569711B75A8EC00108864 /* PBXTargetDependency */,
+			);
+			name = "Fyber DemoTests";
+			productName = "Fyber DemoTests";
+			productReference = AC25696F1B75A8EC00108864 /* Fyber DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC25694E1B75A8EB00108864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FYB;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nickolai Nikishin";
+				TargetAttributes = {
+					AC2569551B75A8EB00108864 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AC25696E1B75A8EC00108864 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AC2569551B75A8EB00108864;
+					};
+				};
+			};
+			buildConfigurationList = AC2569511B75A8EB00108864 /* Build configuration list for PBXProject "Fyber Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC25694D1B75A8EB00108864;
+			productRefGroup = AC2569571B75A8EB00108864 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AC256A9D1B776B1E00108864 /* Products */;
+					ProjectRef = AC256A9C1B776B1E00108864 /* FyberSDK.xcodeproj */;
+				},
+				{
+					ProductGroup = ACD1817A1B78774C00FC39CC /* Products */;
+					ProjectRef = ACD181791B78774C00FC39CC /* KIF.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AC2569551B75A8EB00108864 /* Fyber Demo */,
+				AC25696E1B75A8EC00108864 /* Fyber DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AC256AA31B776B1E00108864 /* libFyberSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFyberSDK.a;
+			remoteRef = AC256AA21B776B1E00108864 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC256AA51B776B1E00108864 /* FyberSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FyberSDKTests.xctest;
+			remoteRef = AC256AA41B776B1E00108864 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACD181841B78774D00FC39CC /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = ACD181831B78774D00FC39CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACD181861B78774D00FC39CC /* libKIF-OCUnit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKIF-OCUnit.a";
+			remoteRef = ACD181851B78774D00FC39CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACD181881B78774D00FC39CC /* Test Host.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Test Host.app";
+			remoteRef = ACD181871B78774D00FC39CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACD1818A1B78774D00FC39CC /* KIF Tests - XCTest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests - XCTest.xctest";
+			remoteRef = ACD181891B78774D00FC39CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACD1818C1B78774D00FC39CC /* KIF Tests-OCUnit.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KIF Tests-OCUnit.octest";
+			remoteRef = ACD1818B1B78774D00FC39CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ACD1818E1B78774D00FC39CC /* KIF.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KIF.framework;
+			remoteRef = ACD1818D1B78774D00FC39CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2569541B75A8EB00108864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2569651B75A8EC00108864 /* Main.storyboard in Resources */,
+				AC2569DF1B75B04500108864 /* FYBOfferCell.xib in Resources */,
+				AC2569671B75A8EC00108864 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC25696D1B75A8EC00108864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2569521B75A8EB00108864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2569BF1B75ADC700108864 /* PSTAlertController.m in Sources */,
+				AC25695F1B75A8EC00108864 /* FYBAppDelegate.m in Sources */,
+				AC2569C31B75ADC700108864 /* UIButton+AFNetworking.m in Sources */,
+				AC2569BA1B75ADC700108864 /* AFSecurityPolicy.m in Sources */,
+				AC2569C51B75ADC700108864 /* UIProgressView+AFNetworking.m in Sources */,
+				AC2569DA1B75B00800108864 /* FYBAllOffersViewController.m in Sources */,
+				AC25698A1B75AD2E00108864 /* FYBBaseViewController.m in Sources */,
+				AC2569B71B75ADC700108864 /* AFHTTPRequestOperationManager.m in Sources */,
+				AC2569BB1B75ADC700108864 /* AFURLConnectionOperation.m in Sources */,
+				AC2569C61B75ADC700108864 /* UIRefreshControl+AFNetworking.m in Sources */,
+				AC2569B61B75ADC700108864 /* AFHTTPRequestOperation.m in Sources */,
+				AC25695C1B75A8EB00108864 /* main.m in Sources */,
+				AC2569C41B75ADC700108864 /* UIImageView+AFNetworking.m in Sources */,
+				AC2569BC1B75ADC700108864 /* AFURLRequestSerialization.m in Sources */,
+				AC2569C21B75ADC700108864 /* UIAlertView+AFNetworking.m in Sources */,
+				AC2569B81B75ADC700108864 /* AFHTTPSessionManager.m in Sources */,
+				AC2569B91B75ADC700108864 /* AFNetworkReachabilityManager.m in Sources */,
+				AC2569C71B75ADC700108864 /* UIWebView+AFNetworking.m in Sources */,
+				AC2569BD1B75ADC700108864 /* AFURLResponseSerialization.m in Sources */,
+				AC2569BE1B75ADC700108864 /* AFURLSessionManager.m in Sources */,
+				AC2569871B75ACFB00108864 /* FYBRequestViewController.m in Sources */,
+				AC2569CD1B75AE1A00108864 /* FYBAlertController.m in Sources */,
+				AC2569CA1B75ADFA00108864 /* FYBBaseCell.m in Sources */,
+				AC2569C11B75ADC700108864 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				AC2569D01B75AEDC00108864 /* FYBBaseViewModel.m in Sources */,
+				AC2569DE1B75B04500108864 /* FYBOfferCell.m in Sources */,
+				AC2569D31B75AF7F00108864 /* FYBRequestViewModel.m in Sources */,
+				AC2569C01B75ADC700108864 /* AFNetworkActivityIndicatorManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC25696B1B75A8EC00108864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB7F041B78B10F005B62D7 /* UITestsRequestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2569711B75A8EC00108864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2569551B75A8EB00108864 /* Fyber Demo */;
+			targetProxy = AC2569701B75A8EC00108864 /* PBXContainerItemProxy */;
+		};
+		AC256AA81B776B4900108864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FyberSDK;
+			targetProxy = AC256AA71B776B4900108864 /* PBXContainerItemProxy */;
+		};
+		ACD181901B78778A00FC39CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIF;
+			targetProxy = ACD1818F1B78778A00FC39CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC2569631B75A8EC00108864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2569641B75A8EC00108864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2569771B75A8EC00108864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC2569781B75A8EC00108864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC25697A1B75A8EC00108864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "Fyber Demo/Fyber-Demo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../FyberSDK/FyberSDK/Headers",
+				);
+				INFOPLIST_FILE = "Fyber Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2a2ac19-2975-4208-b02e-227330f50753";
+			};
+			name = Debug;
+		};
+		AC25697B1B75A8EC00108864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nickolai Nikishin (26G8H7GHE7)";
+				GCC_PREFIX_HEADER = "Fyber Demo/Fyber-Demo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../FyberSDK/FyberSDK/Headers",
+				);
+				INFOPLIST_FILE = "Fyber Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2a2ac19-2975-4208-b02e-227330f50753";
+			};
+			name = Release;
+		};
+		AC25697D1B75A8EC00108864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fyber Demo.app/Fyber Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/System/Library/Frameworks,
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Library/Frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.4.sdk/System/Library/Frameworks,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fyber DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AC25697E1B75A8EC00108864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fyber Demo.app/Fyber Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					/System/Library/Frameworks,
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Library/Frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.4.sdk/System/Library/Frameworks,
+				);
+				INFOPLIST_FILE = "Fyber DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2569511B75A8EB00108864 /* Build configuration list for PBXProject "Fyber Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2569771B75A8EC00108864 /* Debug */,
+				AC2569781B75A8EC00108864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2569791B75A8EC00108864 /* Build configuration list for PBXNativeTarget "Fyber Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC25697A1B75A8EC00108864 /* Debug */,
+				AC25697B1B75A8EC00108864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC25697C1B75A8EC00108864 /* Build configuration list for PBXNativeTarget "Fyber DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC25697D1B75A8EC00108864 /* Debug */,
+				AC25697E1B75A8EC00108864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC25694E1B75A8EB00108864 /* Project object */;
+}
